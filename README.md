@@ -6,7 +6,6 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
 
 ## Overview
 
@@ -41,7 +40,3 @@ Users should be able to:
 - Mobile-first workflow
 - JavaScript
 - Customer validation
-
-### What I learned
-
-...
