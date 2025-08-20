@@ -132,13 +132,15 @@ small {
 /* ====== Styling layout ========= */
 .container {
   max-width: 800px;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 .page {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  text-align: center;
 }
 .logo {
   margin: var(--space-xl) 0 var(--space-lg) 0;
@@ -241,5 +243,22 @@ footer {
   outline: none;
 }
 .hidden {
-  visibility: hidden;
+  display: none;
+}
+
+/* Responesive */
+@media (max-width: 540px) {
+  html {
+    font-size: 50%;
+  }
+  .header {
+    font-size: var(--text-h4);
+  }
+  .email-form {
+    display: block;
+  }
+  .btn-notify {
+    display: block;
+    width: 100%;
+  }
 }
