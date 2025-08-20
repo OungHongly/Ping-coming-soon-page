@@ -27,6 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Ping comming soon page](https://github.com/OungHongly/Ping-coming-soon-page.git)
+- Live Site URL: [Live server](https://ounghongly.github.io/Ping-coming-soon-page/)
 
 ## My process
 
