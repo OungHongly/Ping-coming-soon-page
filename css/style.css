@@ -180,6 +180,8 @@ small {
 .message {
   padding-left: var(--space-lg);
   color: var(--secondary-light-red);
+  text-align: left;
+  display: block;
 }
 .email-input:focus {
   outline-color: var(--primary-blue);
