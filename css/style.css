@@ -149,6 +149,7 @@ small {
 }
 .header span {
   font-weight: var(--fw-bold);
+  color: var(--Very-dark-blue);
 }
 .text {
   color: var(--Very-dark-blue);
