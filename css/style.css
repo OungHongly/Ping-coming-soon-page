@@ -160,15 +160,24 @@ small {
   gap: var(--space-md);
   width: 100%;
   margin-bottom: var(--space-xl);
+  align-items: flex-start;
 }
 .email-input,
 .btn-notify {
   padding: var(--space-md) var(--space-lg);
   border-radius: 100px;
 }
-.email-input {
+.form-group {
   flex: 1;
+}
+.email-input {
+  width: 100%;
   border: 1px solid var(--secondary-pale-blue);
+  margin-bottom: var(--space-sm);
+}
+.message {
+  padding-left: var(--space-lg);
+  color: var(--secondary-light-red);
 }
 .email-input:focus {
   outline-color: var(--primary-blue);
@@ -183,6 +192,7 @@ small {
   flex: 0.3;
   border: none;
   background-color: var(--primary-blue);
+  border: 1px solid var(--primary-blue);
   box-shadow: 0px 4px 6px rgba(79, 125, 243, 0.3);
   color: #fff;
   letter-spacing: 1px;
@@ -223,4 +233,13 @@ ion-icon:hover {
 footer {
   padding: var(--space-md);
   text-align: center;
+}
+
+/* validation style */
+.error {
+  border-color: var(--secondary-light-red);
+  outline: none;
+}
+.hidden {
+  visibility: hidden;
 }
