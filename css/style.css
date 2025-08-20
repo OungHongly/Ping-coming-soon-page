@@ -169,6 +169,9 @@ small {
   flex: 1;
   border: 1px solid var(--secondary-pale-blue);
 }
+.email-input:focus {
+  outline-color: var(--primary-blue);
+}
 .email-input::placeholder {
   font-family: var(--ff-body);
   color: var(--Gray);
@@ -182,6 +185,11 @@ small {
   box-shadow: 0px 4px 6px rgba(79, 125, 243, 0.3);
   color: #fff;
   letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.btn-notify:hover {
+  opacity: 0.8;
 }
 .image-wrapper {
   width: 100%;
@@ -205,6 +213,10 @@ small {
 ion-icon {
   font-size: 1.8rem;
   cursor: pointer;
+  transition: 0.2s;
+}
+ion-icon:hover {
+  color: var(--primary-blue);
 }
 
 footer {
